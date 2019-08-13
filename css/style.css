@@ -10,3 +10,20 @@ body {
 .icone {
 	height: 100px;
 }
+
+#home-quote {
+	background: url('../img/bg-quote.jpg') center center;
+	object-fit: cover;
+}
+
+@media (max-width: 767px) {
+	#home-quote .display-4 {
+		font-size: 2.5rem;
+	}
+	body {
+		padding-top: 0;
+	}
+	.fixed-top {
+		position: relative;
+	}
+}
