@@ -29,5 +29,9 @@ body {
 }
 
 .pergunta {
-	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	border-bottom: 1px solid #e9ecef;
+}
+
+.btn-largura-fixa {
+	max-width: 140px;
 }
